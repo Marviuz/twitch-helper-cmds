@@ -41,7 +41,7 @@ export class Client extends TmiClient {
       const args = message.slice(1).split(' ');
       const commandName = args.shift()?.toLowerCase();
 
-      if (commandName) {
+      if (commandName && this.commands[commandName]) {
         this.commands[commandName]({
           client: this,
           commandName,
