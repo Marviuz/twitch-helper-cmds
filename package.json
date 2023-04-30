@@ -1,6 +1,6 @@
 {
   "name": "twitch-helper-cmds",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Just another set of commands for twitch stream",
   "scripts": {
     "dev": "nodemon -r dotenv/config -r tsconfig-paths/register ./index.ts",
